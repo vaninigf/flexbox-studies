@@ -19,6 +19,19 @@ nav{
     align-items: center;
 }
 
+input[type=search]{
+    width: 40vw;
+    height: 4vh;
+    outline: none;
+    background: rgba(10, 56, 16, 0.773) url(../Imgs/search-icon.png) no-repeat;
+    background-position: 0.1rem;
+    color: #FFF;
+    padding-left: 25px;
+    border: none;
+    border-bottom: 1px solid rgba(3, 20, 6, 0.9);
+    border-top: 1px solid rgba(3, 20, 6, 0.9);
+}
+
 .headerfixed{
     position: fixed;
     top: 0;
@@ -146,7 +159,7 @@ main{
 }
 
 .first-content img{
-    width: 75%;
+    width: 80%;
 }
 
 
